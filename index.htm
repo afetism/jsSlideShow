@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image SlideShow</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="w-screen h-screen flex justify-center items-center">
+    <div class="slideShow-container flex flex-col items-center gap-5">
+     <h1 class="">Slideshow View</h1>
+
+     <div class="slidesShow flex flex-row items-center gap-1">
+        <button class="prev w-6 h-5 bg-red-700" ></button>
+        <img id="mainimg" class="object-cover h-48 w-96" src="./images/image1.jpg" alt="img">
+        <button class="next w-6 h-5 bg-red-700"></button>
+     </div>
+
+     <div class="thumbnails flex flex-row items-center gap-1"></div>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
